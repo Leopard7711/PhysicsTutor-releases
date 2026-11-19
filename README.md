@@ -34,10 +34,11 @@ Claude AI가 1:1로 대학 물리(일반물리와 2학년 전공)를 가르쳐 �
 
 ## 처음 시작: API 키 넣기
 
-이 앱은 AI 사용료를 **본인의 Anthropic(또는 OpenAI) 계정에서 직접** 내는 방식이에요(개발자에게 가는 돈은 없어요).
+이 앱은 AI 사용료를 **본인의 Anthropic(또는 OpenAI·Google) 계정에서 직접** 내는 방식이에요(개발자에게 가는 돈은 없어요).
 
 - **Claude (기본)**: https://console.anthropic.com 가입 → **Billing**에서 크레딧 충전 → **API Keys** → **Create Key**로 키(`sk-ant-…`)를 만들어 복사
 - **GPT**: https://platform.openai.com 가입 → 결제 등록·크레딧 충전 → **API keys**에서 키(`sk-…`)를 만들어 복사
+- **Gemini**: https://aistudio.google.com → **API 키 만들기**(결제 설정 필요)로 키를 만들어 복사
 
 앱을 처음 켜면 나오는 창에 붙여 넣으면 끝. 어느 회사 키인지는 앱이 알아봐요. 키는 이 PC에만 저장되고 동기화하지 않아요.
 
@@ -51,6 +52,7 @@ Claude AI가 1:1로 대학 물리(일반물리와 2학년 전공)를 가르쳐 �
 | Opus | 가장 깊고 정확함. 어려운 문제에 | 약 2배 |
 | Haiku | 복습·연습·짧은 질문용 | 훨씬 저렴 |
 | GPT-6.1 Sol / Terra | OpenAI 키로 쓰는 중간·저가 모델 | Sonnet보다 조금 싸거나(Sol) 절반(Terra) |
+| Gemini 4 Neon | Google 키로 쓰는 상위 모델 | Sonnet보다 조금 비싸고 Opus보다 싸요 |
 
 어려운 문제만 Opus로 풀고 싶으면 입력칸 위의 **🧠 이번 질문만 Opus**를 켜고 보내세요(그 질문 하나만 Opus로 답해요).
 실제 비용은 질문 길이와 양에 따라 달라요. 긴 대화를 오래 쉬었다가 이어 가면 첫 답이 비싸지는데, 그럴 땐 앱이 "새로 시작 / 이어 가기"를 먼저 물어봐요.
